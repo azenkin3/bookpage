@@ -2,24 +2,37 @@ console.clear();
 var typelist = [
 	{
 		name: "typeA",
-		icon: "<i class='fa fa-automobile fa-fw'></i>"
+		icon: "<i class='far fa-circle'></i>"
 	},
 	{
 		name: "typeB",
-		icon: "<i class='fa fa-bus fa-fw'></i>"
+		icon: "<i class='far fa-circle'></i>"
 	},
 	{
 		name: "typeC",
-		icon: "<i class='fa fa-cab fa-fw'></i>"
+		icon: "<i class='far fa-circle'></i>"
 	},
 	{
 		name: "typeD",
-		icon: "<i class='fa fa-motorcycle fa-fw'></i>"
+		icon: "<i class='far fa-circle'></i>"
 	},
 	{
 		name: "typeE",
-		icon: "<i class='fa fa-subway fa-fw'></i>"
+		icon: "<i class='far fa-circle'></i>"
+	},
+	{
+		name: "typeF",
+		icon: "<i class='far fa-circle'></i>"
+	},
+	{
+		name: "typeG",
+		icon: "<i class='far fa-circle'></i>"
+	},
+	{
+		name: "typeH",
+		icon: "<i class='far fa-circle'></i>"
 	}
+	
 ];
 console.log(typelist);
 
