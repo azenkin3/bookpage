@@ -1,0 +1,53 @@
+* {box-sizing: border-box;}
+:before, :after {content: "";box-sizing: border-box;}
+body {font-family: "Noto Sans TC", sans-serif;}
+
+#category{width:100%; height:50px; background-color: green;}
+.category-container{width:1200px; height:50px; background-color:darkblue; margin:0 auto;}
+
+.category-container ul li {list-style: none; float: left; color:white;}
+.swiper-container{margin:0 auto;position:relative;overflow:hidden;list-style:none;
+  padding:0;z-index:1; width:1200px;}
+
+img {max-width: 400px;}
+
+
+/* 스와이퍼 */
+
+.swiper-pagination {position: static;margin-bottom: 60px;}
+.swiper-pagination-bullet {background: none;}
+.swiper-pagination-bullet-active {opacity: 1;background: #007aff;}
+.swiper-pagination-bullet-active .typeName {opacity: 1;}
+
+.swiper-pagination-bullet .typeName {
+  position: absolute;
+  display: block;
+  margin-top: 20px;
+  top: 100%;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  width: auto;
+  padding: 10px;
+  height: auto;
+  border-radius: 0;
+  display: inline-block;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {margin: 0;}
+
+.swiper-slide {opacity: 0.3; transition: all 0.3s ease-in;}
+.swiper-slide .item-content {padding: 20px 0;}
+.swiper-slide .item-content h2 {margin-bottom: 10px; font-size: 20px;}
+.swiper-slide.swiper-slide-active {opacity: 1;}
+
+/* 스와이퍼 */
+
+#toptitle{width:100%; height:50px; }
+.title1{width:1200px; height:50px; margin:0 auto; display:flex;}
+
+.title1 button{margin-top:20px; margin-left:20px; height: 20px; width:50px; background-color: red; }
