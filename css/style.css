@@ -1,16 +1,17 @@
 * {box-sizing: border-box;}
 :before, :after {content: "";box-sizing: border-box;}
-body {font-family: "Noto Sans TC", sans-serif;}
 
-#category{width:100%; height:50px; background-color: green;}
-.category-container{width:1200px; height:50px; background-color:darkblue; margin:0 auto;}
+#category{width:100%; height:50px; border-bottom: solid 1px #666666 ; border-top: solid 1px #666666 ;}
+.category-container{width:1200px; height:50px; margin:0 auto; padding:10px 10px; }
 
-.category-container ul li {list-style: none; float: left; color:white;}
+.category-container ul {height:50px; margin-left:-20px;}
+.category-container ul li {list-style: none; float: left; color:black; margin:0 10px; font-size:14px;}
 .swiper-container{margin:0 auto;position:relative;overflow:hidden;list-style:none;
   padding:0;z-index:1; width:1200px; margin-top:50px;}
 
-img {max-width: 400px; height:450px;}
+img {max-width: 400px; height:450px; }
 
+strong{font-size:13px;}
 
 /* 스와이퍼 */
 
@@ -41,7 +42,7 @@ img {max-width: 400px; height:450px;}
 
 .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {margin: 0;}
 
-.swiper-slide {opacity: 0.3; transition: all 0.3s ease-in;}
+.swiper-slide {opacity:0.7;transition: all 0.3s ease-in;}
 .swiper-slide .item-content {padding: 20px 0;}
 .swiper-slide .item-content h2 {margin-bottom: 10px; font-size: 20px;}
 .swiper-slide.swiper-slide-active {opacity: 1;}
@@ -52,3 +53,19 @@ img {max-width: 400px; height:450px;}
 .title1{width:1200px; height:50px; margin:0 auto; display:flex;}
 
 .title1 button{margin-top:20px; margin-left:20px; height: 20px; width:50px; background-color: red; }
+
+
+#middletitle{width:100%; height:350px; background-color: rgba(242, 244, 245, 0.5); }
+.middletitle1{width:1200px; height:350px;  margin:0 auto; }
+
+
+#toptitle2{width:100%; height:400px;}
+.title2{width:1200px; height:400px; margin:0 auto;  margin-top:100px; border-bottom: solid 1px black;}
+
+#toptitle3{width:100%; height:400px;}
+.title3{width:1200px; height:400px; margin:0 auto;  margin-top:100px;}
+
+#smallnav{width:100%; height:30px; }
+.smallnav2{width:1200px; height:30px; margin:0 auto;}
+.smallnav3{ width:30%; height:30px;  float:right;}
+.smallul li {float:left; margin-left:11px;}

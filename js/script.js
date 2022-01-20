@@ -40,7 +40,7 @@ var swiper = new Swiper(".swiper-container", {
 	slidesPerView: 3,
 	autoplay:true,
 	spaceBetween: 20,
-	autoplay: {delay:3000},
+    
 	centeredSlides: true,
 	parallax: true,
 	loop: true,
