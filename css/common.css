@@ -4,6 +4,13 @@
 .nav-container img{width:100px; height:100px;}
 
 
+a{text-decoration: none;}
+
+#category{width:100%; height:50px; border-bottom: solid 1px #666666 ; border-top: solid 1px #666666 ;}
+.category-container{width:1200px; height:50px; margin:0 auto; padding:10px 10px; }
+
+.category-container ul {height:50px; margin-left:-20px;}
+.category-container ul li { list-style: none; float: left; color:black; margin:0 10px; font-size:14px;}
 /* 서치 */
 
 .wrap{
@@ -50,3 +57,10 @@
   
   
   /* 서치 */
+
+
+
+ #smallnav{width:100%; height:30px; }
+.smallnav2{width:1200px; height:30px; margin:0 auto;}
+.smallnav3{ width:30%; height:30px;  float:right;}
+.smallul li {float:left; margin-left:11px;}

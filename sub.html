@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIDI SELECT</title>
+  
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap');
+       body{font-family: 'Hahmlet', serif; line-height:1.5;}
+    </style>
+    <script src="https://kit.fontawesome.com/29e4618e1b.js" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/sub.css">
+  </head>
+
+  <body>
+  
+    <div id="smallnav">
+      <div class="smallnav2">
+        <div class="smallnav3">
+          <ul class="smallul">
+            <li style="font-weight: bold;">로그인</li>
+            <li>회원가입</li>
+            <li>마이페이지</li>
+            <li>주문/배송</li>
+  
+            <li>고객센터</li>
+  
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    
+  
+  
+    <div id="nav">
+      <div class="nav-container">
+      <a href="index.html"><img src="./img/logo-ridiselect.svg"></a>
+      <div class="wrap">
+        <div class="search">
+           <input type="text" class="searchTerm" placeholder="홍춘옥의 '돈의 신호를 포착하는법' ">
+           <button type="submit" class="searchButton">
+             <i class="fa fa-search"></i>
+          </button>
+        </div>
+     </div>
+      </div>
+  
+    </div>
+
+    <div id="category">
+      <div class="category-container">
+        <ul class="topul">
+          <li style="font-weight: bold;">홈</li>
+          <li><a href="sub.html">최신 업데이트</a></li>
+          <li>국내 도서</li>
+          <li>외국 도서</li>
+          <li>웹소설</li>
+          <li>eBOOK</li>
+        </ul>
+      </div>
+    </div>
+  
+    <section>
+      
+  
+      <div class="sub_box"></div>
+  
+      <table>  
+        <tr>
+          <td>판매가</td>  
+          <td class="pricenum"></td>
+        </tr>
+  
+        <tr>  
+          <td>적립금혜택</td>  
+          <td>38p</td>  
+        </tr>
+  
+        <tr>  
+          <td>브랜드</td>  
+          <td>피오피스토리</td>  
+        </tr>
+  
+        <tr>  
+          <td>배송구분</td>  
+          <td>업체배송</td>  
+        </tr> 
+  
+        <tr>  
+          <td>배송비</td>  
+          <td>조건부무료배송</td>  
+        </tr>
+  
+        <tr>  
+          <td>수량</td>  
+          <td>  
+            <select name="select" id="select">  
+              <option>1</option>  
+              <option>2</option>  
+              <option>3</option>  
+              <option>4</option>  
+              <option>5</option>  
+            </select>  
+          </td>
+        </tr> 
+  
+        <tr>  
+          <td colspan="2">  
+            <button>바로 구매</button>  
+            <button>장바구니 담기</button>  
+            <button>찜하기</button>  
+            <button>조르기</button>  
+          </td>  
+        </tr>  
+    
+      </table>  
+  
+      <div class="contextbox"></div>
+      
+      <div id="tmpBox"></div> 
+  
+    </section> 
+  
+    <footer>
+      <p>Copyright ⓒ INTERPARK Corporation All rights reserved.
+      <p>
+    </footer>
+ 
+    <script>
+      $.ajax({
+        method: "GET",
+        url: "https://dapi.kakao.com/v3/search/book?target=title",
+        data: { query: "부의 시나리오" },
+        headers: { Authorization: "KakaoAK c8ffc3ab6fd3e90abbd76c604e685526" }
+      })
+        .done(function (msg) {
+          console.log(msg.documents[1].title);
+          console.log(msg.documents[1].thumbnail);
+
+          // sub1
+          
+          $(".sub_box").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+          $(".contextbox").append("<h6>" + msg.documents[0].authors[0] + "</h6>");
+          $(".pricenum").append(msg.documents[0].price + "원");
+
+          var str = msg.documents[0].contents;
+          var str2 = str.substring(0, 600);
+          $(".contextbox").append("<p>" + str2 + "</p>");
+          $(".contextbox").append("<span>" + "자세히보기" + "</span>");
+        });
+
+      //메모장으로 sub 텍스트 가져오기, 서버에 올려야 보임
+      $(function () {
+        $.get("./sub_txt/txt1.txt", function (data) {
+          $("#tmpBox").html(data);
+        })
+
+      });
+    </script>
+  
+  </body>
+</html>
+
+

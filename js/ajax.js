@@ -59,5 +59,25 @@ $.ajax({
                
         
                 }
+
+                $.ajax({
+                    method: "GET",
+                    url: "https://dapi.kakao.com/v3/search/book?target=title",
+                    data: { query: "글쓰기",size:50 },
+                   
+                    headers: { Authorization: "KakaoAK 236fe2947416052ad7044400f1de7e66" } 
+                })
+                
+                    .done(function (msg) {
+                        let title4=$('.title4 article')
+                        for(i=0;i<title4.length;i++){
+                       
+                        $('.title4 article').eq(i).append("<img src='"  + msg.documents[i].thumbnail + "'/>"); 
+                        $('.title4 article').eq(i).append("<strong>" + msg.documents[i].title + "</strong> <br>"); 
+                        $('.title4 article').eq(i).append("<strong>" + msg.documents[i].price + "원</strong>");
+                       
+                
+                        }
+                    });
             });
    
