@@ -22,7 +22,7 @@
 
       
 
-      .contextbox  {width:95%; height:350px; background-color:gold;  float:left; margin: 50px 0 0 50px;} 
+      .contextbox  {width:95%; height:350px;   float:left; margin: 50px 0 0 50px;} 
       .contextbox h6 {font-size:20px; color:#666; text-align:left;  line-height:150%; padding:50px 50px 0px;} 
       .contextbox p {font-size:15px; color:#666; text-align:left; line-height:150%; padding:50px;} 
       .contextbox span {font-size:12px; color:#666; float:right;  padding:50px;} 
