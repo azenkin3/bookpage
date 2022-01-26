@@ -82,54 +82,53 @@
     <div class="rightbox">
       <table>  
         <tr>
-          <td>판매가</td>  
-          <td class="pricenum"></td>
+          <td> <h3>월가의 퀀트 투자 바이블</h3></td>  
         </tr>
   
         <tr>  
-          <td>적립금혜택</td>  
-          <td>38p</td>  
+          <td> 90년 역사로 검증한 과학적 주식투자 방법론</td>  
+          
+        </tr>
+
+        <tr>
+          <td><i class="far fa-star"></i> <i class="far fa-star"></i> <i class="far fa-star"></i> <i class="far fa-star"></i> <i class="far fa-star"></i> 0명 </td>
         </tr>
   
         <tr>  
-          <td>브랜드</td>  
-          <td>피오피스토리</td>  
-        </tr>
-  
-        <tr>  
-          <td>배송구분</td>  
-          <td>업체배송</td>  
+          <td class="write"></td>  
+          
         </tr> 
   
         <tr>  
-          <td>배송비</td>  
-          <td>조건부무료배송</td>  
+          <td class="seller"><h6>에프엔미디어 출판</h6></td>  
         </tr>
   
-        <tr>  
-          <td>수량</td>  
-          <td>  
-            <select name="select" id="select">  
-              <option>1</option>  
-              <option>2</option>  
-              <option>3</option>  
-              <option>4</option>  
-              <option>5</option>  
-            </select>  
-          </td>
-        </tr> 
-  
-        <tr>  
-          <td colspan="2">  
-            <button>바로 구매</button>  
-            <button>장바구니 담기</button>  
-            <button>찜하기</button>  
-            <button>조르기</button>  
-          </td>  
-        </tr>  
-    
       </table>  
-    </div>
+    
+  
+          <div class="buybox">
+
+            <div class="buy">
+              <article class="leftart"> <p>구매</p></article>
+              <article class="rightart"> 
+                <p>1. asd</p>
+                <p>1. asd</p>
+                <p>1. asd</p>
+              </article>
+            </div>
+
+
+            <div class="btn4box">
+            <button class="abtn1">바로 구매</button>  
+            <button class="abtn2">장바구니 담기</button>  
+            <button class="abtn3">찜하기</button>  
+            <button class="abtn4">조르기</button>  
+          </div>
+          </div>
+        
+        
+          </div>
+      
 
     <div class="stickybox2">
 
@@ -163,10 +162,11 @@
           console.log(msg.documents[1].title);
           console.log(msg.documents[1].thumbnail);
 
-          // sub1
+         
           
           $(".subtitle1").append("<img src='" + msg.documents[0].thumbnail + "'/>");
-          $(".contextbox").append("<h6>" + msg.documents[0].authors[0] + "</h6>");
+          $(".write").append("<h6>" + msg.documents[0].authors[0] + "저</h6> ");
+         
           $(".pricenum").append(msg.documents[0].price + "원");
 
           var str = msg.documents[0].contents;
