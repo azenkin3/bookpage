@@ -66,7 +66,7 @@ a{text-decoration: none;}
 .smallul li {float:left; margin-left:11px;}
 
 
-footer{width:100%; height:200px; background-color: #303538;}
+#footer{width:100%; height:200px; background-color: #303538; z-index:10;}
 .footerbox{width:1200px; height:200px; margin:0 auto; margin-top:100px; background-color: #303538;}
 
 
