@@ -29,6 +29,21 @@ PER, PSR, 배당수익률, 가격 모멘텀 등 널리 알려진 단일 요소�
 
 </p>
 
+<h3>대표 저서</h3>
+<hr>
+<div id="toptitle5">
+  
+  
+<div class="title5">
+  <article class="slideart5"></article>
+  <article class="slideart5"></article>
+  <article class="slideart5"></article>
+  <article class="slideart5"></article>
+  <article class="slideart5"></article>
+  
+ 
+  </div>
+
 <h3>목차</h3>
 <hr>
 <p>
