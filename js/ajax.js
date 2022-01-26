@@ -83,7 +83,7 @@ $.ajax({
                     $.ajax({
                         method: "GET",
                         url: "https://dapi.kakao.com/v3/search/book?target=title",
-                        data: { query: "글쓰기",size:50 },
+                        data: { query: "홍춘욱",size:50 },
                        
                         headers: { Authorization: "KakaoAK 236fe2947416052ad7044400f1de7e66" } 
                     })
