@@ -67,9 +67,19 @@
   
     <section>
       
-  
-      <div class="sub_box"></div>
-  
+
+     <div id="topbox1">
+     <div class="topbox2">
+
+      <div class="leftbox">
+      <article class="subtitle1"></article>
+      <div class="btnbox">
+      <button class="viewbtn">미리보기</button>
+    </div>
+    </div>
+      
+      
+    <div class="rightbox">
       <table>  
         <tr>
           <td>판매가</td>  
@@ -119,8 +129,20 @@
         </tr>  
     
       </table>  
-  
-      <div class="contextbox"></div>
+    </div>
+
+    <div class="stickybox2">
+
+    </div>
+    </div>
+  </div> 
+</div> 
+
+     <div id="contextbox1">
+      <div class="contextbox">
+
+      </div>
+    </div>
       
       <div id="tmpBox"></div> 
   
@@ -134,7 +156,7 @@
       $.ajax({
         method: "GET",
         url: "https://dapi.kakao.com/v3/search/book?target=title",
-        data: { query: "돈의 흐름에 올라타라" },
+        data: { query: "월가의 퀀트" },
         headers: { Authorization: "KakaoAK c8ffc3ab6fd3e90abbd76c604e685526" }
       })
         .done(function (msg) {
@@ -143,7 +165,7 @@
 
           // sub1
           
-          $(".sub_box").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+          $(".subtitle1").append("<img src='" + msg.documents[0].thumbnail + "'/>");
           $(".contextbox").append("<h6>" + msg.documents[0].authors[0] + "</h6>");
           $(".pricenum").append(msg.documents[0].price + "원");
 
