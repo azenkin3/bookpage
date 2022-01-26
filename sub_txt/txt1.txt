@@ -1,4 +1,4 @@
-﻿<h3 style="margin-top:1px">작품소개<h3>
+﻿<h3 style="margin-top:1px">작품소개</h3>
 <hr>
 <p>다양한 투자 요소들이 수익에 미치는 결과 집대성 <br>
 장장 90년 데이터로 검증한 과학적 주식 투자 방법론 <br> <br>
