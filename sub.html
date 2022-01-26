@@ -153,11 +153,7 @@
   </div> 
 </div> 
 
-     <div id="contextbox1">
-      <div class="contextbox">
-
-      </div>
-    </div>
+     
       
       <div id="tmpBox"></div> 
   
@@ -234,12 +230,7 @@
          
           $(".pricenum").append(msg.documents[0].price + "원");
 
-          var str = msg.documents[0].contents;
-          var str2 = str.substring(0, 600);
-          $(".contextbox").append("<p>" + str2 + "</p>");
-          $(".contextbox").append("<span>" + "자세히보기" + "</span>");
-        });
-
+      
     
       $(function () {
         $.get("./sub_txt/txt1.txt", function (data) {
