@@ -7,8 +7,6 @@
 
       section {width:1200px; height:1700px;  margin:30px auto 0 auto;  border-radius:30px;  padding:10px; position:relative;}   
 
-      footer {width:1400px; height:80px; margin:0 auto; border:1px solid #eee; border-radius:30px;  }
-      footer p {text-align:center; font-size:11px; color:#666; margin:30px 0 0 0px;}
 
 
       table {width:500px; border-top:3px solid #e9e9e9; float:right;  border-bottom:1px solid #e9e9e9;  margin:25px 200px 30px 50px; color:#666;}
@@ -23,23 +21,23 @@
       .contextbox span {font-size:12px; color:#666; float:right;  padding:50px;} 
 
       #tmpBox {width:1020px; height: 1500px; background:#eee;}
-      #topbox1{width:100%; height:500px; background-color: aqua;}
-      .topbox2{width:1200px; height:500px; background-color: yellow; display:flex;}
-      .topbox2 .subtitle1 {width: 200px; height: 280px; background-color: aquamarine;
+      #topbox1{width:100%; height:500px; }
+      .topbox2{width:1200px; height:500px;  display:flex;}
+      .topbox2 .subtitle1 {width: 200px; height: 280px; 
       margin-left:50px; margin-top:25px}
 
 
-      .leftbox{width:25%; height:500px; background-color: black;}
-      .rightbox{width:60%; height:500px; background-color: cornsilk; display:flex; flex-direction: column;}
-      .stickybox2{width:15%; height:470px; background-color: black; position: sticky; top:0;}
+      .leftbox{width:25%; height:500px; }
+      .rightbox{width:60%; height:500px;  display:flex; flex-direction: column;}
+      .stickybox2{width:15%; height:470px;  position: sticky; top:0;}
 
       .rank{color:red; margin-right:10px;}
       .stickybox2 img {width:100%; height:auto;}
       
-      .stickybox2 li {display:flex; color:white; font-size:12px; text-align: center; line-height: 2.1; border-top: solid 1px #666666; }
+      .stickybox2 li {display:flex; color:black; font-size:12px; text-align: center; line-height: 2.1; border-top: solid 1px #666666; }
       .subtitle1 img {width:100%; height: 100%;}
       .btnbox{width:200px; height:50px;  margin:0 auto;}
-      .viewbtn{width:120px;  height:40px; margin:auto; display:block; margin-top:50px; border:solid 1px #2079ab; }
+      .viewbtn{background-color: white; width:120px;  height:40px; margin:auto; display:block; margin-top:50px; border:solid 1px #2079ab; color:#1f8ce6; font-size:13px; font-weight: bold;}
 
       .buybox{width:500px; height:100px; background-color: black; margin:25px 200px 30px 50px;}
       .buy{width:500px; height:100px; background-color: darkkhaki; display:flex;}
@@ -49,12 +47,17 @@
 
 
       .leftart p {text-align: center; margin-top:20%; font-weight:bold; color:black; }
-      .pricep {display:flex; justify-content: space-between;}
+      .pricep {font-weight:bold; display:flex; justify-content: space-between; color:#808991; font-size:13px; margin-top:10px; margin-left:10px; margin-right:10px;}
 
       .btn4box{width:250px; height:50px;  float:right; margin-top:20px;}
      .abtn3{height:50px;}
 
      .abtn3{width:20%; font-size:18px; color:#666666; background-color: white; border:solid 1px black;}
      .abtn4{width:35%; height:50px; font-weight:bold; color:white; 
-       border:solid 0px; background-color: #2079ab;}
+       border:solid 0px; background-color:#1f8ce6}
 
+
+      td i {color:gold;}
+
+
+      .write , .seller { font-size: 16px; color:black;}
