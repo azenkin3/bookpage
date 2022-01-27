@@ -8,7 +8,7 @@
       
       a{text-decoration: none;}
 
-      section { width:1200px; height:3000px;  margin:30px auto 0 auto;  border-radius:30px;  padding:10px; position:relative;}   
+      section { width:1200px; height:3100px;  margin:30px auto 0 auto;  border-radius:30px;  padding:10px; position:relative;}   
 
 
       table {width:500px; border-top:3px solid #e9e9e9; float:right;  border-bottom:1px solid #e9e9e9;  margin:25px 200px 30px 50px; color:#666;}
@@ -43,6 +43,7 @@
       
       .stickybox2 li {display:flex; color:black; font-size:12px; text-align: center; line-height: 2.1; border-top: solid 1px #666666; }
       .subtitle1 img {width:100%; height: 100%;}
+      .subtitle3 img {width:80%; height: 100%; margin-top:40px;}
       .btnbox{width:200px; height:50px;  margin:0 auto;}
       .viewbtn{background-color: white; width:120px;  height:40px; margin:auto; display:block; margin-top:50px; border:solid 1px #2079ab; color:#1f8ce6; font-size:13px; font-weight: bold;}
       .viewbtn:hover{background-color: #ebf6ff;}
@@ -85,7 +86,7 @@
         direction: rtl;
         display:flex;
         justify-content: center;
-        width:1020px;
+        width:800px;
         height:70px;
         display:flex;
         justify-content: center;
@@ -125,4 +126,4 @@
 
       .right2box{width:80%; height:400px;}
 
-      .left2box{width:20%; height:400px;}
+      .left2box{width:250px; height:400px;}

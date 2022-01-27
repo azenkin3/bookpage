@@ -84,7 +84,7 @@ $.ajax({
                     $.ajax({
                         method: "GET",
                         url: "https://dapi.kakao.com/v3/search/book?target=title",
-                        data: { query: "월가의 퀀트" },
+                        data: { query:"퀀트" },
                         headers: { Authorization: "KakaoAK 236fe2947416052ad7044400f1de7e66" }
                       })
                         .done(function (msg) {
@@ -92,7 +92,8 @@ $.ajax({
                           console.log(msg.documents[1].thumbnail);
                 
                          
-                          
+                          $(".subtitle3").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+
                           $(".subtitle1").append("<img src='" + msg.documents[0].thumbnail + "'/>");
                           $(".write").append("<h6>" + msg.documents[0].authors[0] + "저</h6> ");
                          
