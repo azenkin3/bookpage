@@ -68,9 +68,15 @@ PER, PSR, 배당수익률, 가격 모멘텀 등 널리 알려진 단일 요소�
 <h3>리뷰</h3>
 <hr>
 
-   <div id="tmpBox"></div> 
+   
 
       <div id="reviewbox">
+
+     <div class="left2 box">
+
+</div>
+
+        <div class="right2 box">
         <h4>이 책을 평가해주세요!</h4>
         <div class="star-rating"  onclick="alert('로그인 상태에서 가능합니다. 로그인 페이지로 이동합니다')">
           
@@ -92,6 +98,7 @@ PER, PSR, 배당수익률, 가격 모멘텀 등 널리 알려진 단일 요소�
           <button class="coment">리뷰남기기</button>
           
         </div>
+</div>
         
         </div>
            
