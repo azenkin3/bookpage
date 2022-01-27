@@ -72,4 +72,10 @@ PER, PSR, 배당수익률, 가격 모멘텀 등 널리 알려진 단일 요소�
 <div class="star-rating">
         <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
 </div>
+
+<div class="review>
+
+</div>
+
+
        </div>
