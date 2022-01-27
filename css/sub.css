@@ -119,8 +119,8 @@
       .review p {font-weight:bold;}
       .warring{background-color:white; color:#999999; border:solid 1px #999999; border-radius: 3px;}
       .warring:hover{background-color: #f2f4f5;}
-      .check{display:inline-block; margin-right:-390px; margin-top:13px;}
-      .spo{margin-right:-390px; margin-top:5px;}
+      .check{display:inline-block; margin-right:-390px; margin-top:14px;}
+      .spo{margin-right:-390px; margin-top:-2px;}
       .coment{background-color:#1f8ce6; color:white; border:solid 0px; border-radius: 3px; width:100px;}
 
 
