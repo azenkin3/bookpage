@@ -64,3 +64,12 @@ PER, PSR, 배당수익률, 가격 모멘텀 등 널리 알려진 단일 요소�
 
 <iframe width="1020" height="413" src="https://www.youtube.com/embed/L37NRM0KeX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+<h3>리뷰</h3>
+<hr>
+
+<div id="reviewbox>
+<div class="star-rating">
+        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</div>
+       </div>
