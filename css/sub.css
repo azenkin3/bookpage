@@ -101,4 +101,5 @@
 
 
        #reviewbox{width:1020px; height:400px;}
-       .review{border:solid 1px black; width:800px; margin:0 auto; height:200px;}
+       .review{border:solid 1px black; width:800px; margin:0 auto; height:200px;
+      background-color: white; color:black;}
