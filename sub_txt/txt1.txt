@@ -73,7 +73,7 @@ PER, PSR, 배당수익률, 가격 모멘텀 등 널리 알려진 단일 요소�
       <div id="reviewbox">
 
      <div class="left2box">
- <article class="subtitle3"><h5>123</h5></article>
+ <article class="subtitle1" style="margin-top:40px; width:80%;"><h5>123</h5></article>
 </div>
 
         <div class="right2box" style="margin-top:20px;">

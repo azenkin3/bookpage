@@ -92,8 +92,7 @@ $.ajax({
                           console.log(msg.documents[1].thumbnail);
                 
                          
-                          $(".subtitle3").append("<img src='" + msg.documents[0].thumbnail + "'/>");
-
+                         
                           $(".subtitle1").append("<img src='" + msg.documents[0].thumbnail + "'/>");
                           $(".write").append("<h6>" + msg.documents[0].authors[0] + "저</h6> ");
                          
