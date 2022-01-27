@@ -9,7 +9,7 @@ $(function () {
     $.ajax({
                     method: "GET",
                     url: "https://dapi.kakao.com/v3/search/book?target=title",
-                    data: { query: "홍춘욱"},
+                    data: { query: "제임스 오쇼너시"},
                    
                     headers: { Authorization: "KakaoAK 236fe2947416052ad7044400f1de7e66" } 
                 })
